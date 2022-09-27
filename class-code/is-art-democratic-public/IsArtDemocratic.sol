@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-contract IsArt {
+contract IsArtDemocratic {
 
   bool public isArt; // defaults to false
   uint256 public yesVotes;

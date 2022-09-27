@@ -17,6 +17,7 @@ async function init() {
 
 init();
 
+
 // EVENT LISTENERS
 
 // when I click on the setNum button...
@@ -56,6 +57,8 @@ async function getNum() {
 
 function setNum() {
   // grab the user input from the input text box
+  
+  // jQuery version
   const numToSet = $('#numInput').val();
 
   // convert the number they added to a number that Ethereum can
